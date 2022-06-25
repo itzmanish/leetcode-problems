@@ -60,3 +60,10 @@ func TestGetMissingNumber(t *testing.T) {
 	expected = 8
 	assert(t, expected, out)
 }
+
+func TestIsomorphiceString(t *testing.T) {
+	s := "paper"
+	s1 := "title"
+	out := isIsomorphic(s, s1)
+	assert(t, false, out)
+}
